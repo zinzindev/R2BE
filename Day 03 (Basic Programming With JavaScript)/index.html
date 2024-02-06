@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+	<title>Day 03 (Basic Programming With JavaScript)</title>
+</head>
+<body>
+	<h1>Day 03 (Basic Programming With JavaScript)</h1>
+
+	<script>
+		/*
+		let name = prompt('What is your name?');
+		alert(typeof name);
+		alert(`Hello ${name} \nGood Bye ${name}`);
+		*/
+
+		/*
+		let x = prompt('Enter x:'); // -> '80'
+		let y = prompt('Enter y:'); // -> '10'
+
+		alert(x+y); // -> '8010'
+		*/
+
+		/*
+		let x = prompt('Enter x:');
+		let y = prompt('Enter y:');
+
+		// x = parseInt(x); // -> number (can Reuse)
+		// y = parseInt(y); // -> number (can Reuse)
+
+		// alert(x + y);
+		alert(parseInt(x) + parseInt(y)); // -> number but can't Reuse!
+		*/
+
+		/*
+		let weight = Number(prompt('Enter your weight:'));
+		alert(weight * 33);
+		*/
+
+		/*
+		let a = 500;
+		let a_string = '500';
+
+		// let b = 'true';
+		let b = '';
+		let b_boolean = Boolean(b);
+		alert(b_boolean);
+		*/
+
+		/*
+		// alert(5 == 5);
+
+		let x = '5';
+		alert(x == 5);
+		alert(x === 5);
+		alert(x != 5);
+		alert(x !== 5);
+		*/
+
+		// Condition
+		let number = 10;
+
+		// if (number > 0) {
+		// 	alert('Positive');
+		// }
+
+		// if (number > 10) {
+		// 	alert('Positive');
+		// }
+
+		// if (number >= 10) {
+		// 	alert('Positive');
+		// }
+
+		/*
+		// let age = 25;
+		let age = 18;
+		if (age < 18) {
+			alert('You are too young');
+		} else if (age == 18) {
+			alert('You are 18');
+		} else {
+			alert('You are too old');
+		}
+		*/
+
+		/*
+		let username = prompt('Enter your username: ');
+		let password = prompt('Enter your password: ');
+
+		if (username == 'admin' && password == '1234') {
+			alert('Login success');
+		} else {
+			alert('Login fail');
+		}
+		*/
+
+		// Grade problem
+		let score = Number(prompt('Enter your score: '));
+
+		if (score >= 90) {
+			alert('grade 4');
+		} else if (score >= 80) {
+			alert('grade 3');
+		} else if (score >= 70) {
+			alert('grade 1');
+		} else if (score >= 60) {
+			alert('grade 1');
+		} else {
+			alert('grade 0')
+		}
+	</script>
+</body>
