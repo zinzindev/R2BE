@@ -1,0 +1,14 @@
+{
+  "node": {
+    "ea132d8c794e9ff67a035bd9596cbe29b203d34d": {
+      "workers": {
+        "app/client-server-component/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fauttakornbowoniratisai%2FDesktop%2FCodecamp%20Online%20Fullstack%20JavaScript%2FROAD%20TO%20BACK-END%20DEVELOPER%20BOOTCAMP%2FDay%2011%20(Server%20Side%20Framework)%2Fmy-next-app%2Fsrc%2Fapp%2Fclient-server-component%2Faction.js%22%2C%5B%22submitForm%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/client-server-component/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "tAb3eLe0bw6cNnCK72m0qsfIzXYt6LXKsZ9Gqq+EC2A="
+}
