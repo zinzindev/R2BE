@@ -1,0 +1,17 @@
+{
+	"name": "day-10",
+	"version": "1.0.0",
+	"description": "",
+	"main": "route_path_pattern.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon testCookie.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cookie-parser": "^1.4.6",
+		"express": "^4.18.2"
+	}
+}
