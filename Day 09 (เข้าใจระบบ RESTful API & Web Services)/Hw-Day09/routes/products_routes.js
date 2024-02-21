@@ -1,4 +1,7 @@
 const express = require('express');
+
+const router = express.Router();
+
 const {
 	getAllProducts,
 	getProductById,
@@ -7,8 +10,6 @@ const {
 	deleteProduct,
 	searchProducts,
 } = require('../controllers/products_controllers');
-
-const router = express.Router();
 
 router.use((req, res, next) => {
 	console.log('Hello API');

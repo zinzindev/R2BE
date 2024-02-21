@@ -1,5 +1,10 @@
 const express = require('express');
+
+const { swaggerSpec, swaggerUi } = require('../swagger');
+
+const app = express();
 const router = express.Router();
+
 const {
 	getProductById,
 	getAllProducts,
@@ -8,10 +13,6 @@ const {
 	deleteProduct,
 	searchProducts,
 } = require('../controllers/products_controllers');
-
-const { swaggerSpec, swaggerUi } = require('../swagger');
-
-const app = express();
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 

@@ -1,7 +1,8 @@
 // https://school.borntodev.com/course/road-to-back-end-developer-bootcamp/b90c9e28-4415-4716-bb4b-126a5a2c0c60
 
-const express = require('express');
 const cors = require('cors');
+const express = require('express');
+
 const productsRouter = require('./routes/products_routes');
 const { swaggerSpec, swaggerUi } = require('./swagger');
 
